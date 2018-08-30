@@ -1,0 +1,59 @@
+---
+title: "Overview"
+date: 2018-06-20T19:04:38+02:00
+draft: false
+type: "documentation"
+---
+
+= Kiali Overview
+:sectnums:
+:toc: left
+toc::[]
+:toc-title: Overview Contents
+:keywords: Kiali Documentation
+:icons: font
+:imagesdir: /images/documentation/overview/
+
+== What is Kiali?.
+
+Kiali provides answers to the question: What are the microservices in my Istio service mesh doing ?
+
+[#img-homepage]
+.Kiali Graph
+image::kiali.png[Demo Website]
+
+{nbsp} +
+A Microservice Architecture breaks up the monolith into many smaller pieces that are composed together. Patterns to secure the communication between services like fault tolerance (via timeout, retry, circuit breaking, etc.) have come up as well as distributed tracing to be able to see where calls are going.
+
+A service mesh can now provide these services on a platform level and frees the application writers from those tasks. Routing decisions are done at the mesh level.
+
+
+icon:lightbulb[size=2x] {nbsp}{nbsp}{nbsp}{nbsp} Kiali works with Istio to visualise the service mesh topology, features like circuit breakers or request rates.
+
+icon:lightbulb[size=2x] {nbsp}{nbsp}{nbsp}{nbsp} Kiali also includes Jaeger Tracing to provide distributed tracing out of the box.
+
+
+== What does it do?
+
+The best guide for https://gohugo.io/getting-started/installing/[installing Hugo] is on their website. I found it was worth following this guide rather than use the package maintained in the Ubuntu repo as it was older and caused problems with modern themes.
+
+== Why would a customer want to install/use it?
+
+
+
+
+Useful resources
+
+.Kiali
+* https://github.com/kiali/kiali/blob/master/README.adoc[Kiali Readme]
+* https://github.com/kiali/kiali-ui/blob/master/README.adoc[Kiali-ui Readme]
+* https://github.com/kiali/kiali-test-mesh[Kiali-test-mesh]
+
+.Istio
+* https://istio.io/[Istio]
+ - https://istio.io/docs/concepts/what-is-istio/[What is Istio?]
+ - https://istio.io/docs/concepts/traffic-management/[Traffic Management]
+ - https://istio.io/docs/examples/[Examples]
+
+
+
